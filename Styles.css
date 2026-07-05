@@ -6,9 +6,84 @@ body {
 
 
 .mastercontainer {
-    margin: 10rem;
+    margin: 5rem
     
 }
+
+
+.contenedorcardsmain {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-top: 10rem;
+
+}
+
+
+.flexcardstittle {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flexcardsbutton1 {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    
+    
+}
+
+.flexcardsbutton1 button {
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    width: 100px;
+}
+
+
+.card {
+    display: flex;
+    border-radius: 25px;
+    flex-direction: row;
+    border: solid black 2px;
+    margin: 4px;
+    background-color: rgba(0, 0, 0, 0.322);
+
+}
+
+.card img {
+    width: 300px;
+    height: 180px;
+    border-radius: 20px;
+    padding: 10px;
+   
+    
+}
+
+.cardtext {
+    padding-left: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+}
+
+
+.cardtext h3 {
+    color: gray;
+    font-size: 20px;
+}
+
+
+.cardtext button {
+    background-color: gray;
+    border-radius: 15px;
+    color: white;transform: translateZ(0);
+    background-color: rgba(128, 128, 128, 0.514);
+    
+}
+
+
+
 
 .navflex {
     display: flex;
@@ -46,9 +121,14 @@ body {
     margin-top: 10px;
     padding: 10px;
     
-    
-    
 }
+
+
+.inicio {
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+}
+
 
 .navflexbutton1 {
    border-radius: 8px; 
@@ -76,16 +156,15 @@ body {
 
 
 .divflex1 {
-    display: flex;
-    justify-content:start;
-    flex-direction: column;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    font-size: 30px;
-    margin-bottom: 10rem;
-    padding: 2rem;
-    flex-wrap: wrap;
-    
+   display: grid;
+   grid-template-columns: 1fr 1fr;    
+}
+
+
+.video1 {
+    border-radius: 100px;
+    overflow: hidden;
+    transform: translateZ(0);
 }
 
 .buttoninner1 {
@@ -95,6 +174,7 @@ body {
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    font-size: 15px;
    color: black;
+   margin-top: 20px;
 }
 
 
@@ -105,14 +185,12 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     color: white;
+    margin-top: 20px;
 }
 
 
 
-.video1 {
-  display: flex;
- 
-}
+
 
 
 .imagenflex1 {
@@ -172,12 +250,25 @@ body {
 }
 
 
+.newflex1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px;
+}
+
+.newflex1 h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+
 .divflex2 {
     display: flex;
     margin-bottom: 10rem;
     margin-top: 10rem;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10rem;
 }
 
 .divflex2 h1 {
@@ -221,10 +312,27 @@ body {
 }
 
 .divflex3innerimg {
-    height: 150px;
-    width: 200px;
-    padding-top: 2rem;
+    height: 200px;
+    width: 350px;
+
     
 }
 
+.games {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    margin: 100px;
 
+    
+
+}
+
+.tarjeta {
+  
+  text-align: center;
+}
+
+.tarjeta h2 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
